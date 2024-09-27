@@ -66,4 +66,9 @@
   ctk.set_default_color_theme("dark-blue")
 
 ##ScreenShots
+
 ![image](https://github.com/user-attachments/assets/f7d19b9a-fa25-4714-868f-7e2dd0e353c5)
+![image](https://github.com/user-attachments/assets/733642cc-65ec-4d10-a1ed-2f48da8836d1)
+![image](https://github.com/user-attachments/assets/ae1f79c2-b291-4f86-ae6b-8fd67a44bb6f)
+
+
