@@ -122,5 +122,15 @@ height_entry.pack(pady=5)
 process_button = ctk.CTkButton(app, text="Process Image", command=on_process_click)
 process_button.pack(pady=20)
 
+# Bind hover events for buttons
+select_image_button.bind("<Enter>", lambda event: on_hover_enter(select_image_button))
+select_image_button.bind("<Leave>", lambda event: on_hover_leave(select_image_button))
+
+select_output_button.bind("<Enter>", lambda event: on_hover_enter(select_output_button))
+select_output_button.bind("<Leave>", lambda event: on_hover_leave(select_output_button))
+
+process_button.bind("<Enter>", lambda event: on_hover_enter(process_button))
+process_button.bind("<Leave>", lambda event: on_hover_leave(process_button))
+
 # Start the GUI loop
 app.mainloop()
