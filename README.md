@@ -1,6 +1,6 @@
 # Intelligence Cam
 
-*Intelligence Cam* is a Python-based GUI application that allows users to apply basic image processing techniques like sharpening and resizing. The user can select an image, specify the desired width and height, and save the processed image to a chosen directory. The application is built using customtkinter for a modern-looking graphical user interface.
+*Intelligence Cam* is a Python-based GUI application that allows users to apply basic image processing techniques like sharpening and resizing. The user can select an image, specify the desired width and height, and save the processed image to a chosen directory. The application is built using customtkinter to create a modern-looking graphical user interface.
 
 ## Features
 
@@ -65,6 +65,5 @@
   python
   ctk.set_default_color_theme("dark-blue")
 
-  ##ScreenShots
-  ![image](https://github.com/user-attachments/assets/5ac9048e-15db-45d6-893d-a7d0b24698da)
-
+##ScreenShots
+![image](https://github.com/user-attachments/assets/f7d19b9a-fa25-4714-868f-7e2dd0e353c5)
