@@ -64,3 +64,7 @@
 - *Color Theme*: The color theme is set to "dark-blue". You can choose other available themes or customize your own theme in the GUI by changing:
   python
   ctk.set_default_color_theme("dark-blue")
+
+  ##ScreenShots
+  ![image](https://github.com/user-attachments/assets/5ac9048e-15db-45d6-893d-a7d0b24698da)
+
