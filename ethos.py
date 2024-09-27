@@ -46,7 +46,7 @@ def process_image(image_path, width, height, output_folder):
 
 # Function to select image
 def select_image():
-    file_path = filedialog.askopenfilename(filetypes=[("Image files", ".jpg;.png;*.jpeg")])
+    file_path = filedialog.askopenfilename(filetypes=[("Image files", "*.jpg;*.png;*.jpeg")])
     if file_path:
         image_path_entry.delete(0, ctk.END)
         image_path_entry.insert(0, file_path)
@@ -121,16 +121,6 @@ height_entry.pack(pady=5)
 # Process Button
 process_button = ctk.CTkButton(app, text="Process Image", command=on_process_click)
 process_button.pack(pady=20)
-
-# Bind hover events for buttons
-select_image_button.bind("<Enter>", lambda event: on_hover_enter(select_image_button))
-select_image_button.bind("<Leave>", lambda event: on_hover_leave(select_image_button))
-
-select_output_button.bind("<Enter>", lambda event: on_hover_enter(select_output_button))
-select_output_button.bind("<Leave>", lambda event: on_hover_leave(select_output_button))
-
-process_button.bind("<Enter>", lambda event: on_hover_enter(process_button))
-process_button.bind("<Leave>", lambda event: on_hover_leave(process_button))
 
 # Start the GUI loop
 app.mainloop()
