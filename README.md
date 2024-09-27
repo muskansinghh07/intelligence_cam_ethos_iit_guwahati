@@ -17,7 +17,7 @@
 1. Clone the repository:
 
    bash
-   git clone https://github.com/your-username/intelligence-cam.git
+   git clone https://github.com/muskansinghh07/intelligence_cam_ethos_iit_guwahati.git
    cd intelligence-cam
    
 
